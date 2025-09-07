@@ -1,9 +1,9 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import Modal from "../Modal/Modal";
+import Modal from "../../../../components/Modal/Modal";
 import css from "./NotePreview.module.css"
-import type { Note } from '../../types/note';
+import type { Note } from '../../../../types/note';
 
 
 interface NotePreviewProps {
